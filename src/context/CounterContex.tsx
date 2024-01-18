@@ -1,5 +1,4 @@
 import { createContext, useReducer, ChangeEvent, ReactElement, useCallback, useContext } from "react";
-import Counter from "../Counter";
 
 type StateType = {
    count: number;
